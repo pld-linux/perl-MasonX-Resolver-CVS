@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	MasonX
-%define	pnam	Resolver-CVS
+%define		pdir	MasonX
+%define		pnam	Resolver-CVS
 Summary:	MasonX::Resolver::CVS - component path resolver for components in CVS
 Summary(pl):	MasonX::Resolver::CVS - resolver ¶cie¿ek komponentów dla komponentów w CVS-ie
 Name:		perl-MasonX-Resolver-CVS
