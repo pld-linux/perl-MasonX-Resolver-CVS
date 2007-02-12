@@ -6,7 +6,7 @@
 %define		pdir	MasonX
 %define		pnam	Resolver-CVS
 Summary:	MasonX::Resolver::CVS - component path resolver for components in CVS
-Summary(pl):	MasonX::Resolver::CVS - resolver ¶cie¿ek komponentów dla komponentów w CVS-ie
+Summary(pl.UTF-8):   MasonX::Resolver::CVS - resolver Å›cieÅ¼ek komponentÃ³w dla komponentÃ³w w CVS-ie
 Name:		perl-MasonX-Resolver-CVS
 Version:	0.02
 Release:	1
@@ -30,11 +30,11 @@ subclass only supports local CVS repositories. As such, it is able to
 deliver component source without checking the files out into a working
 directory.
 
-%description -l pl
-Ta podklasa HTML::Mason::Resolver jest u¿ywana gdy komponenty s±
-zapisane w systemie CVS. Aktualnie podklasa ta obs³uguje tylko lokalne
-repozytoria CVS. Jako taka, jest w stanie dostarczaæ ¼ród³o
-komponentów bez pobierania plików do bie¿±cego katalogu.
+%description -l pl.UTF-8
+Ta podklasa HTML::Mason::Resolver jest uÅ¼ywana gdy komponenty sÄ…
+zapisane w systemie CVS. Aktualnie podklasa ta obsÅ‚uguje tylko lokalne
+repozytoria CVS. Jako taka, jest w stanie dostarczaÄ‡ ÅºrÃ³dÅ‚o
+komponentÃ³w bez pobierania plikÃ³w do bieÅ¼Ä…cego katalogu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
