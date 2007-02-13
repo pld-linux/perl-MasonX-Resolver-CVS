@@ -6,7 +6,7 @@
 %define		pdir	MasonX
 %define		pnam	Resolver-CVS
 Summary:	MasonX::Resolver::CVS - component path resolver for components in CVS
-Summary(pl.UTF-8):   MasonX::Resolver::CVS - resolver ścieżek komponentów dla komponentów w CVS-ie
+Summary(pl.UTF-8):	MasonX::Resolver::CVS - resolver ścieżek komponentów dla komponentów w CVS-ie
 Name:		perl-MasonX-Resolver-CVS
 Version:	0.02
 Release:	1
