@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	MasonX
 %define		pnam	Resolver-CVS
+%include	/usr/lib/rpm/macros.perl
 Summary:	MasonX::Resolver::CVS - component path resolver for components in CVS
 Summary(pl.UTF-8):	MasonX::Resolver::CVS - resolver ścieżek komponentów dla komponentów w CVS-ie
 Name:		perl-MasonX-Resolver-CVS
@@ -14,6 +14,7 @@ License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	390dae143a49b653827e3448901d7e5f
+URL:		http://search.cpan.org/dist/MasonX-Resolver-CVS/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
